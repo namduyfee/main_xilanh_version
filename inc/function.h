@@ -6,6 +6,8 @@
 
 #include "config.h"
 
+
+
 void control_xilanh(uint8_t xilanh_number, uint8_t trang_thai); 
 void nang_canh_tay(uint8_t toc_do); 
 void ha_canh_tay(uint8_t toc_do); 
@@ -19,6 +21,8 @@ void kep(uint8_t chan_le);
 void nha(uint8_t chan_le); 
 
 void test_xilanh(void); 
+
+
 
 #endif
 

@@ -5,7 +5,6 @@ Component: ARM Compiler 6.15 Tool: armlink [5dd79300]
 Section Cross References
 
     main.o(.text.main) refers to config.o(.text.config) for config
-    main.o(.text.main) refers to function.o(.text.test_xilanh) for test_xilanh
     main.o(.ARM.exidx.text.main) refers to main.o(.text.main) for [Anonymous Symbol]
     gpio.o(.ARM.exidx.text.configGPIOA) refers to gpio.o(.text.configGPIOA) for [Anonymous Symbol]
     gpio.o(.ARM.exidx.text.configGPIOB) refers to gpio.o(.text.configGPIOB) for [Anonymous Symbol]
@@ -21,55 +20,41 @@ Section Cross References
     servo.o(.ARM.exidx.text.khoaDC) refers to servo.o(.text.khoaDC) for [Anonymous Symbol]
     exti.o(.ARM.exidx.text.configEXTI) refers to exti.o(.text.configEXTI) for [Anonymous Symbol]
     interrupt.o(.text.EXTI15_10_IRQHandler) refers to function.o(.text.khoa_dc_tay) for khoa_dc_tay
-    interrupt.o(.text.EXTI15_10_IRQHandler) refers to main.o(.bss.start) for start
+    interrupt.o(.text.EXTI15_10_IRQHandler) refers to main.o(.bss.home) for home
     interrupt.o(.text.EXTI15_10_IRQHandler) refers to main.o(.bss.vi_tri_nang_ha) for vi_tri_nang_ha
     interrupt.o(.text.EXTI15_10_IRQHandler) refers to main.o(.bss.tem) for tem
-    interrupt.o(.text.EXTI15_10_IRQHandler) refers to function.o(.text.kep) for kep
-    interrupt.o(.text.EXTI15_10_IRQHandler) refers to timer.o(.text.delayUs) for delayUs
-    interrupt.o(.text.EXTI15_10_IRQHandler) refers to main.o(.bss.stop_nang_ha) for stop_nang_ha
-    interrupt.o(.text.EXTI15_10_IRQHandler) refers to function.o(.text.nang_canh_tay) for nang_canh_tay
-    interrupt.o(.text.EXTI15_10_IRQHandler) refers to main.o(.bss.trang_thai) for trang_thai
+    interrupt.o(.text.EXTI15_10_IRQHandler) refers to tu_dong.o(.text.tu_dong_6) for tu_dong_6
     interrupt.o(.ARM.exidx.text.EXTI15_10_IRQHandler) refers to interrupt.o(.text.EXTI15_10_IRQHandler) for [Anonymous Symbol]
     interrupt.o(.text.EXTI4_IRQHandler) refers to main.o(.bss.check) for check
     interrupt.o(.text.EXTI4_IRQHandler) refers to function.o(.text.khoa_dc_tay) for khoa_dc_tay
     interrupt.o(.text.EXTI4_IRQHandler) refers to timer.o(.text.delayUs) for delayUs
     interrupt.o(.text.EXTI4_IRQHandler) refers to main.o(.bss.tem) for tem
-    interrupt.o(.text.EXTI4_IRQHandler) refers to function.o(.text.control_xilanh) for control_xilanh
-    interrupt.o(.text.EXTI4_IRQHandler) refers to function.o(.text.xoay_trai) for xoay_trai
-    interrupt.o(.text.EXTI4_IRQHandler) refers to function.o(.text.xoay_phai) for xoay_phai
-    interrupt.o(.text.EXTI4_IRQHandler) refers to main.o(.bss.start) for start
-    interrupt.o(.text.EXTI4_IRQHandler) refers to function.o(.text.ha_canh_tay) for ha_canh_tay
-    interrupt.o(.text.EXTI4_IRQHandler) refers to main.o(.bss.trang_thai) for trang_thai
+    interrupt.o(.text.EXTI4_IRQHandler) refers to main.o(.bss.done) for done
+    interrupt.o(.text.EXTI4_IRQHandler) refers to tu_dong.o(.text.tu_dong_2) for tu_dong_2
+    interrupt.o(.text.EXTI4_IRQHandler) refers to tu_dong.o(.text.tu_dong_3) for tu_dong_3
     interrupt.o(.ARM.exidx.text.EXTI4_IRQHandler) refers to interrupt.o(.text.EXTI4_IRQHandler) for [Anonymous Symbol]
     interrupt.o(.text.EXTI9_5_IRQHandler) refers to main.o(.bss.check) for check
     interrupt.o(.text.EXTI9_5_IRQHandler) refers to function.o(.text.khoa_dc_tay) for khoa_dc_tay
     interrupt.o(.text.EXTI9_5_IRQHandler) refers to timer.o(.text.delayUs) for delayUs
     interrupt.o(.text.EXTI9_5_IRQHandler) refers to main.o(.bss.tem) for tem
-    interrupt.o(.text.EXTI9_5_IRQHandler) refers to function.o(.text.control_xilanh) for control_xilanh
-    interrupt.o(.text.EXTI9_5_IRQHandler) refers to function.o(.text.xoay_trai) for xoay_trai
-    interrupt.o(.text.EXTI9_5_IRQHandler) refers to function.o(.text.xoay_phai) for xoay_phai
-    interrupt.o(.text.EXTI9_5_IRQHandler) refers to main.o(.bss.start) for start
-    interrupt.o(.text.EXTI9_5_IRQHandler) refers to function.o(.text.ha_canh_tay) for ha_canh_tay
-    interrupt.o(.text.EXTI9_5_IRQHandler) refers to main.o(.bss.trang_thai) for trang_thai
+    interrupt.o(.text.EXTI9_5_IRQHandler) refers to tu_dong.o(.text.tu_dong_2) for tu_dong_2
+    interrupt.o(.text.EXTI9_5_IRQHandler) refers to tu_dong.o(.text.tu_dong_3) for tu_dong_3
     interrupt.o(.ARM.exidx.text.EXTI9_5_IRQHandler) refers to interrupt.o(.text.EXTI9_5_IRQHandler) for [Anonymous Symbol]
-    interrupt.o(.text.EXTI3_IRQHandler) refers to main.o(.bss.start) for start
+    interrupt.o(.text.EXTI3_IRQHandler) refers to main.o(.bss.home) for home
     interrupt.o(.text.EXTI3_IRQHandler) refers to main.o(.bss.trang_thai) for trang_thai
     interrupt.o(.text.EXTI3_IRQHandler) refers to main.o(.bss.vi_tri_nang_ha) for vi_tri_nang_ha
     interrupt.o(.text.EXTI3_IRQHandler) refers to main.o(.bss.stop_nang_ha) for stop_nang_ha
     interrupt.o(.text.EXTI3_IRQHandler) refers to function.o(.text.khoa_dc_tay) for khoa_dc_tay
+    interrupt.o(.text.EXTI3_IRQHandler) refers to main.o(.bss.tem) for tem
+    interrupt.o(.text.EXTI3_IRQHandler) refers to main.o(.bss.done) for done
+    interrupt.o(.text.EXTI3_IRQHandler) refers to tu_dong.o(.text.tu_dong_2) for tu_dong_2
     interrupt.o(.text.EXTI3_IRQHandler) refers to timer.o(.text.delayUs) for delayUs
     interrupt.o(.ARM.exidx.text.EXTI3_IRQHandler) refers to interrupt.o(.text.EXTI3_IRQHandler) for [Anonymous Symbol]
     interrupt.o(.text.USART1_IRQHandler) refers to main.o(.bss.tay_ps) for tay_ps
-    interrupt.o(.text.USART1_IRQHandler) refers to main.o(.bss.stop_nang_ha) for stop_nang_ha
-    interrupt.o(.text.USART1_IRQHandler) refers to main.o(.bss.trang_thai) for trang_thai
     interrupt.o(.text.USART1_IRQHandler) refers to main.o(.bss.tem) for tem
-    interrupt.o(.text.USART1_IRQHandler) refers to function.o(.text.kep) for kep
-    interrupt.o(.text.USART1_IRQHandler) refers to timer.o(.text.delayUs) for delayUs
-    interrupt.o(.text.USART1_IRQHandler) refers to function.o(.text.nang_canh_tay) for nang_canh_tay
-    interrupt.o(.text.USART1_IRQHandler) refers to function.o(.text.xoay_trai) for xoay_trai
-    interrupt.o(.text.USART1_IRQHandler) refers to function.o(.text.xoay_phai) for xoay_phai
-    interrupt.o(.text.USART1_IRQHandler) refers to main.o(.bss.start) for start
-    interrupt.o(.text.USART1_IRQHandler) refers to function.o(.text.ha_canh_tay) for ha_canh_tay
+    interrupt.o(.text.USART1_IRQHandler) refers to tu_dong.o(.text.tu_dong_1) for tu_dong_1
+    interrupt.o(.text.USART1_IRQHandler) refers to tu_dong.o(.text.tu_dong_4) for tu_dong_4
+    interrupt.o(.text.USART1_IRQHandler) refers to tu_dong.o(.text.tu_dong_5) for tu_dong_5
     interrupt.o(.ARM.exidx.text.USART1_IRQHandler) refers to interrupt.o(.text.USART1_IRQHandler) for [Anonymous Symbol]
     nvic.o(.text.configNVIC) refers to nvic.o(.text.__NVIC_SetPriorityGrouping) for __NVIC_SetPriorityGrouping
     nvic.o(.text.configNVIC) refers to nvic.o(.text.__NVIC_SetPriority) for __NVIC_SetPriority
@@ -89,6 +74,8 @@ Section Cross References
     config.o(.text.config) refers to uart.o(.text.configUART1) for configUART1
     config.o(.text.config) refers to uart.o(.text.configUART2) for configUART2
     config.o(.text.config) refers to uart.o(.text.configUART3) for configUART3
+    config.o(.text.config) refers to main.o(.data.canh_tay) for canh_tay
+    config.o(.text.config) refers to dma.o(.text.initDMA1Channel7) for initDMA1Channel7
     config.o(.ARM.exidx.text.config) refers to config.o(.text.config) for [Anonymous Symbol]
     i2c.o(.ARM.exidx.text.configI2c) refers to i2c.o(.text.configI2c) for [Anonymous Symbol]
     i2c.o(.ARM.exidx.text.startI2c) refers to i2c.o(.text.startI2c) for [Anonymous Symbol]
@@ -127,6 +114,45 @@ Section Cross References
     function.o(.text.test_xilanh) refers to function.o(.text.control_xilanh) for control_xilanh
     function.o(.text.test_xilanh) refers to timer.o(.text.delayUs) for delayUs
     function.o(.ARM.exidx.text.test_xilanh) refers to function.o(.text.test_xilanh) for [Anonymous Symbol]
+    tu_dong.o(.text.tu_dong_1) refers to function.o(.text.kep) for kep
+    tu_dong.o(.text.tu_dong_1) refers to timer.o(.text.delayUs) for delayUs
+    tu_dong.o(.text.tu_dong_1) refers to main.o(.bss.stop_nang_ha) for stop_nang_ha
+    tu_dong.o(.text.tu_dong_1) refers to main.o(.bss.trang_thai) for trang_thai
+    tu_dong.o(.text.tu_dong_1) refers to function.o(.text.nang_canh_tay) for nang_canh_tay
+    tu_dong.o(.text.tu_dong_1) refers to function.o(.text.xoay_trai) for xoay_trai
+    tu_dong.o(.text.tu_dong_1) refers to function.o(.text.xoay_phai) for xoay_phai
+    tu_dong.o(.ARM.exidx.text.tu_dong_1) refers to tu_dong.o(.text.tu_dong_1) for [Anonymous Symbol]
+    tu_dong.o(.text.tu_dong_2) refers to function.o(.text.control_xilanh) for control_xilanh
+    tu_dong.o(.text.tu_dong_2) refers to timer.o(.text.delayUs) for delayUs
+    tu_dong.o(.text.tu_dong_2) refers to function.o(.text.xoay_trai) for xoay_trai
+    tu_dong.o(.text.tu_dong_2) refers to function.o(.text.xoay_phai) for xoay_phai
+    tu_dong.o(.ARM.exidx.text.tu_dong_2) refers to tu_dong.o(.text.tu_dong_2) for [Anonymous Symbol]
+    tu_dong.o(.text.tu_dong_3) refers to function.o(.text.control_xilanh) for control_xilanh
+    tu_dong.o(.text.tu_dong_3) refers to timer.o(.text.delayUs) for delayUs
+    tu_dong.o(.text.tu_dong_3) refers to function.o(.text.xoay_phai) for xoay_phai
+    tu_dong.o(.text.tu_dong_3) refers to function.o(.text.xoay_trai) for xoay_trai
+    tu_dong.o(.text.tu_dong_3) refers to main.o(.bss.home) for home
+    tu_dong.o(.text.tu_dong_3) refers to main.o(.bss.trang_thai) for trang_thai
+    tu_dong.o(.text.tu_dong_3) refers to function.o(.text.ha_canh_tay) for ha_canh_tay
+    tu_dong.o(.ARM.exidx.text.tu_dong_3) refers to tu_dong.o(.text.tu_dong_3) for [Anonymous Symbol]
+    tu_dong.o(.text.tu_dong_4) refers to function.o(.text.kep) for kep
+    tu_dong.o(.text.tu_dong_4) refers to timer.o(.text.delayUs) for delayUs
+    tu_dong.o(.text.tu_dong_4) refers to main.o(.bss.trang_thai) for trang_thai
+    tu_dong.o(.text.tu_dong_4) refers to main.o(.bss.stop_nang_ha) for stop_nang_ha
+    tu_dong.o(.text.tu_dong_4) refers to function.o(.text.nang_canh_tay) for nang_canh_tay
+    tu_dong.o(.ARM.exidx.text.tu_dong_4) refers to tu_dong.o(.text.tu_dong_4) for [Anonymous Symbol]
+    tu_dong.o(.text.tu_dong_5) refers to main.o(.bss.home) for home
+    tu_dong.o(.text.tu_dong_5) refers to function.o(.text.ha_canh_tay) for ha_canh_tay
+    tu_dong.o(.text.tu_dong_5) refers to main.o(.bss.trang_thai) for trang_thai
+    tu_dong.o(.text.tu_dong_5) refers to function.o(.text.xoay_phai) for xoay_phai
+    tu_dong.o(.text.tu_dong_5) refers to function.o(.text.xoay_trai) for xoay_trai
+    tu_dong.o(.ARM.exidx.text.tu_dong_5) refers to tu_dong.o(.text.tu_dong_5) for [Anonymous Symbol]
+    tu_dong.o(.text.tu_dong_6) refers to function.o(.text.kep) for kep
+    tu_dong.o(.text.tu_dong_6) refers to timer.o(.text.delayUs) for delayUs
+    tu_dong.o(.text.tu_dong_6) refers to main.o(.bss.stop_nang_ha) for stop_nang_ha
+    tu_dong.o(.text.tu_dong_6) refers to function.o(.text.nang_canh_tay) for nang_canh_tay
+    tu_dong.o(.text.tu_dong_6) refers to main.o(.bss.trang_thai) for trang_thai
+    tu_dong.o(.ARM.exidx.text.tu_dong_6) refers to tu_dong.o(.text.tu_dong_6) for [Anonymous Symbol]
     misc.o(.ARM.exidx.text.NVIC_PriorityGroupConfig) refers to misc.o(.text.NVIC_PriorityGroupConfig) for [Anonymous Symbol]
     misc.o(.ARM.exidx.text.NVIC_Init) refers to misc.o(.text.NVIC_Init) for [Anonymous Symbol]
     misc.o(.ARM.exidx.text.NVIC_SetVectorTable) refers to misc.o(.text.NVIC_SetVectorTable) for [Anonymous Symbol]
@@ -333,7 +359,6 @@ Removing Unused input sections from the image.
     Removing dma.o(.ARM.exidx.text.initDMA1Channel3), (8 bytes).
     Removing dma.o(.text.initDMA1Channel4), (22 bytes).
     Removing dma.o(.ARM.exidx.text.initDMA1Channel4), (8 bytes).
-    Removing dma.o(.text.initDMA1Channel7), (22 bytes).
     Removing dma.o(.ARM.exidx.text.initDMA1Channel7), (8 bytes).
     Removing dma.o(.text.initDMA1Channel2), (22 bytes).
     Removing dma.o(.ARM.exidx.text.initDMA1Channel2), (8 bytes).
@@ -351,7 +376,15 @@ Removing Unused input sections from the image.
     Removing function.o(.ARM.exidx.text.kep), (8 bytes).
     Removing function.o(.text.nha), (58 bytes).
     Removing function.o(.ARM.exidx.text.nha), (8 bytes).
+    Removing function.o(.text.test_xilanh), (144 bytes).
     Removing function.o(.ARM.exidx.text.test_xilanh), (8 bytes).
+    Removing tu_dong.o(.text), (0 bytes).
+    Removing tu_dong.o(.ARM.exidx.text.tu_dong_1), (8 bytes).
+    Removing tu_dong.o(.ARM.exidx.text.tu_dong_2), (8 bytes).
+    Removing tu_dong.o(.ARM.exidx.text.tu_dong_3), (8 bytes).
+    Removing tu_dong.o(.ARM.exidx.text.tu_dong_4), (8 bytes).
+    Removing tu_dong.o(.ARM.exidx.text.tu_dong_5), (8 bytes).
+    Removing tu_dong.o(.ARM.exidx.text.tu_dong_6), (8 bytes).
     Removing misc.o(.text), (0 bytes).
     Removing misc.o(.text.NVIC_PriorityGroupConfig), (20 bytes).
     Removing misc.o(.ARM.exidx.text.NVIC_PriorityGroupConfig), (8 bytes).
@@ -372,7 +405,7 @@ Removing Unused input sections from the image.
     Removing system_stm32f10x.o(.data.SystemCoreClock), (4 bytes).
     Removing system_stm32f10x.o(.rodata.AHBPrescTable), (16 bytes).
 
-106 unused section(s) (total 2056 bytes) removed from the image.
+113 unused section(s) (total 2226 bytes) removed from the image.
 
 ==============================================================================
 
@@ -449,6 +482,7 @@ Image Symbol Table
     servo.c                                  0x00000000   Number         0  servo.o ABSOLUTE
     system_stm32f10x.c                       0x00000000   Number         0  system_stm32f10x.o ABSOLUTE
     timer.c                                  0x00000000   Number         0  timer.o ABSOLUTE
+    tu_dong.c                                0x00000000   Number         0  tu_dong.o ABSOLUTE
     uart.c                                   0x00000000   Number         0  uart.o ABSOLUTE
     RESET                                    0x08000000   Section      236  startup_stm32f10x_md.o(RESET)
     !!!main                                  0x080000ec   Section        8  __main.o(!!!main)
@@ -505,43 +539,49 @@ Image Symbol Table
     .text                                    0x08000240   Section        2  use_no_semi.o(.text)
     .text                                    0x08000242   Section        0  indicate_semi.o(.text)
     [Anonymous Symbol]                       0x08000244   Section        0  interrupt.o(.text.EXTI15_10_IRQHandler)
-    [Anonymous Symbol]                       0x080002e4   Section        0  interrupt.o(.text.EXTI3_IRQHandler)
-    [Anonymous Symbol]                       0x08000348   Section        0  interrupt.o(.text.EXTI4_IRQHandler)
-    [Anonymous Symbol]                       0x08000440   Section        0  interrupt.o(.text.EXTI9_5_IRQHandler)
-    SetSysClock                              0x08000539   Thumb Code     8  system_stm32f10x.o(.text.SetSysClock)
-    [Anonymous Symbol]                       0x08000538   Section        0  system_stm32f10x.o(.text.SetSysClock)
-    SetSysClockTo72                          0x08000541   Thumb Code   190  system_stm32f10x.o(.text.SetSysClockTo72)
-    [Anonymous Symbol]                       0x08000540   Section        0  system_stm32f10x.o(.text.SetSysClockTo72)
-    [Anonymous Symbol]                       0x08000600   Section        0  system_stm32f10x.o(.text.SystemInit)
-    [Anonymous Symbol]                       0x08000658   Section        0  interrupt.o(.text.USART1_IRQHandler)
-    __NVIC_EnableIRQ                         0x08000761   Thumb Code    32  nvic.o(.text.__NVIC_EnableIRQ)
-    [Anonymous Symbol]                       0x08000760   Section        0  nvic.o(.text.__NVIC_EnableIRQ)
-    __NVIC_SetPriority                       0x08000781   Thumb Code    16  nvic.o(.text.__NVIC_SetPriority)
-    [Anonymous Symbol]                       0x08000780   Section        0  nvic.o(.text.__NVIC_SetPriority)
-    __NVIC_SetPriorityGrouping               0x08000791   Thumb Code    28  nvic.o(.text.__NVIC_SetPriorityGrouping)
-    [Anonymous Symbol]                       0x08000790   Section        0  nvic.o(.text.__NVIC_SetPriorityGrouping)
-    [Anonymous Symbol]                       0x080007ac   Section        0  config.o(.text.config)
-    [Anonymous Symbol]                       0x080007dc   Section        0  gpio.o(.text.configAFIO)
-    [Anonymous Symbol]                       0x08000814   Section        0  dma.o(.text.configDMA1)
-    [Anonymous Symbol]                       0x0800083c   Section        0  exti.o(.text.configEXTI)
-    [Anonymous Symbol]                       0x080008b0   Section        0  gpio.o(.text.configGPIOA)
-    [Anonymous Symbol]                       0x08000970   Section        0  gpio.o(.text.configGPIOB)
-    [Anonymous Symbol]                       0x08000a38   Section        0  gpio.o(.text.configGPIOC)
-    [Anonymous Symbol]                       0x08000a68   Section        0  nvic.o(.text.configNVIC)
-    [Anonymous Symbol]                       0x08000ab8   Section        0  timer.o(.text.configTIM4)
-    [Anonymous Symbol]                       0x08000aec   Section        0  uart.o(.text.configUART1)
-    [Anonymous Symbol]                       0x08000b14   Section        0  uart.o(.text.configUART2)
-    [Anonymous Symbol]                       0x08000b50   Section        0  uart.o(.text.configUART3)
-    [Anonymous Symbol]                       0x08000b8c   Section        0  function.o(.text.control_xilanh)
-    [Anonymous Symbol]                       0x08000cac   Section        0  timer.o(.text.delayUs)
-    [Anonymous Symbol]                       0x08000ccc   Section        0  function.o(.text.ha_canh_tay)
-    [Anonymous Symbol]                       0x08000cdc   Section        0  function.o(.text.kep)
-    [Anonymous Symbol]                       0x08000d18   Section        0  function.o(.text.khoa_dc_tay)
-    [Anonymous Symbol]                       0x08000d3c   Section        0  main.o(.text.main)
-    [Anonymous Symbol]                       0x08000d48   Section        0  function.o(.text.nang_canh_tay)
-    [Anonymous Symbol]                       0x08000d58   Section        0  function.o(.text.test_xilanh)
-    [Anonymous Symbol]                       0x08000de8   Section        0  function.o(.text.xoay_phai)
-    [Anonymous Symbol]                       0x08000e18   Section        0  function.o(.text.xoay_trai)
+    [Anonymous Symbol]                       0x080002b0   Section        0  interrupt.o(.text.EXTI3_IRQHandler)
+    [Anonymous Symbol]                       0x08000340   Section        0  interrupt.o(.text.EXTI4_IRQHandler)
+    [Anonymous Symbol]                       0x080003e4   Section        0  interrupt.o(.text.EXTI9_5_IRQHandler)
+    SetSysClock                              0x08000471   Thumb Code     8  system_stm32f10x.o(.text.SetSysClock)
+    [Anonymous Symbol]                       0x08000470   Section        0  system_stm32f10x.o(.text.SetSysClock)
+    SetSysClockTo72                          0x08000479   Thumb Code   190  system_stm32f10x.o(.text.SetSysClockTo72)
+    [Anonymous Symbol]                       0x08000478   Section        0  system_stm32f10x.o(.text.SetSysClockTo72)
+    [Anonymous Symbol]                       0x08000538   Section        0  system_stm32f10x.o(.text.SystemInit)
+    [Anonymous Symbol]                       0x08000590   Section        0  interrupt.o(.text.USART1_IRQHandler)
+    __NVIC_EnableIRQ                         0x08000605   Thumb Code    32  nvic.o(.text.__NVIC_EnableIRQ)
+    [Anonymous Symbol]                       0x08000604   Section        0  nvic.o(.text.__NVIC_EnableIRQ)
+    __NVIC_SetPriority                       0x08000625   Thumb Code    16  nvic.o(.text.__NVIC_SetPriority)
+    [Anonymous Symbol]                       0x08000624   Section        0  nvic.o(.text.__NVIC_SetPriority)
+    __NVIC_SetPriorityGrouping               0x08000635   Thumb Code    28  nvic.o(.text.__NVIC_SetPriorityGrouping)
+    [Anonymous Symbol]                       0x08000634   Section        0  nvic.o(.text.__NVIC_SetPriorityGrouping)
+    [Anonymous Symbol]                       0x08000650   Section        0  config.o(.text.config)
+    [Anonymous Symbol]                       0x080006a8   Section        0  gpio.o(.text.configAFIO)
+    [Anonymous Symbol]                       0x080006e0   Section        0  dma.o(.text.configDMA1)
+    [Anonymous Symbol]                       0x08000708   Section        0  exti.o(.text.configEXTI)
+    [Anonymous Symbol]                       0x0800077c   Section        0  gpio.o(.text.configGPIOA)
+    [Anonymous Symbol]                       0x0800083c   Section        0  gpio.o(.text.configGPIOB)
+    [Anonymous Symbol]                       0x08000904   Section        0  gpio.o(.text.configGPIOC)
+    [Anonymous Symbol]                       0x08000934   Section        0  nvic.o(.text.configNVIC)
+    [Anonymous Symbol]                       0x08000984   Section        0  timer.o(.text.configTIM4)
+    [Anonymous Symbol]                       0x080009b8   Section        0  uart.o(.text.configUART1)
+    [Anonymous Symbol]                       0x080009e0   Section        0  uart.o(.text.configUART2)
+    [Anonymous Symbol]                       0x08000a1c   Section        0  uart.o(.text.configUART3)
+    [Anonymous Symbol]                       0x08000a58   Section        0  function.o(.text.control_xilanh)
+    [Anonymous Symbol]                       0x08000b78   Section        0  timer.o(.text.delayUs)
+    [Anonymous Symbol]                       0x08000b98   Section        0  function.o(.text.ha_canh_tay)
+    [Anonymous Symbol]                       0x08000ba8   Section        0  dma.o(.text.initDMA1Channel7)
+    [Anonymous Symbol]                       0x08000bc0   Section        0  function.o(.text.kep)
+    [Anonymous Symbol]                       0x08000bfc   Section        0  function.o(.text.khoa_dc_tay)
+    [Anonymous Symbol]                       0x08000c20   Section        0  main.o(.text.main)
+    [Anonymous Symbol]                       0x08000c28   Section        0  function.o(.text.nang_canh_tay)
+    [Anonymous Symbol]                       0x08000c38   Section        0  tu_dong.o(.text.tu_dong_1)
+    [Anonymous Symbol]                       0x08000c88   Section        0  tu_dong.o(.text.tu_dong_2)
+    [Anonymous Symbol]                       0x08000cb8   Section        0  tu_dong.o(.text.tu_dong_3)
+    [Anonymous Symbol]                       0x08000d04   Section        0  tu_dong.o(.text.tu_dong_4)
+    [Anonymous Symbol]                       0x08000d34   Section        0  tu_dong.o(.text.tu_dong_5)
+    [Anonymous Symbol]                       0x08000d64   Section        0  tu_dong.o(.text.tu_dong_6)
+    [Anonymous Symbol]                       0x08000da0   Section        0  function.o(.text.xoay_phai)
+    [Anonymous Symbol]                       0x08000dd0   Section        0  function.o(.text.xoay_trai)
     .bss                                     0x20000010   Section       96  libspace.o(.bss)
     Heap_Mem                                 0x20000080   Data         512  startup_stm32f10x_md.o(HEAP)
     HEAP                                     0x20000080   Section      512  startup_stm32f10x_md.o(HEAP)
@@ -695,46 +735,53 @@ Image Symbol Table
     __I$use$semihosting                      0x08000241   Thumb Code     0  use_no_semi.o(.text)
     __use_no_semihosting_swi                 0x08000241   Thumb Code     2  use_no_semi.o(.text)
     __semihosting_library_function           0x08000243   Thumb Code     0  indicate_semi.o(.text)
-    EXTI15_10_IRQHandler                     0x08000245   Thumb Code   160  interrupt.o(.text.EXTI15_10_IRQHandler)
-    EXTI3_IRQHandler                         0x080002e5   Thumb Code   100  interrupt.o(.text.EXTI3_IRQHandler)
-    EXTI4_IRQHandler                         0x08000349   Thumb Code   248  interrupt.o(.text.EXTI4_IRQHandler)
-    EXTI9_5_IRQHandler                       0x08000441   Thumb Code   248  interrupt.o(.text.EXTI9_5_IRQHandler)
-    SystemInit                               0x08000601   Thumb Code    86  system_stm32f10x.o(.text.SystemInit)
-    USART1_IRQHandler                        0x08000659   Thumb Code   262  interrupt.o(.text.USART1_IRQHandler)
-    config                                   0x080007ad   Thumb Code    48  config.o(.text.config)
-    configAFIO                               0x080007dd   Thumb Code    56  gpio.o(.text.configAFIO)
-    configDMA1                               0x08000815   Thumb Code    40  dma.o(.text.configDMA1)
-    configEXTI                               0x0800083d   Thumb Code   116  exti.o(.text.configEXTI)
-    configGPIOA                              0x080008b1   Thumb Code   192  gpio.o(.text.configGPIOA)
-    configGPIOB                              0x08000971   Thumb Code   200  gpio.o(.text.configGPIOB)
-    configGPIOC                              0x08000a39   Thumb Code    48  gpio.o(.text.configGPIOC)
-    configNVIC                               0x08000a69   Thumb Code    78  nvic.o(.text.configNVIC)
-    configTIM4                               0x08000ab9   Thumb Code    52  timer.o(.text.configTIM4)
-    configUART1                              0x08000aed   Thumb Code    38  uart.o(.text.configUART1)
-    configUART2                              0x08000b15   Thumb Code    58  uart.o(.text.configUART2)
-    configUART3                              0x08000b51   Thumb Code    58  uart.o(.text.configUART3)
-    control_xilanh                           0x08000b8d   Thumb Code   288  function.o(.text.control_xilanh)
-    delayUs                                  0x08000cad   Thumb Code    32  timer.o(.text.delayUs)
-    ha_canh_tay                              0x08000ccd   Thumb Code    16  function.o(.text.ha_canh_tay)
-    kep                                      0x08000cdd   Thumb Code    58  function.o(.text.kep)
-    khoa_dc_tay                              0x08000d19   Thumb Code    36  function.o(.text.khoa_dc_tay)
-    main                                     0x08000d3d   Thumb Code    10  main.o(.text.main)
-    nang_canh_tay                            0x08000d49   Thumb Code    16  function.o(.text.nang_canh_tay)
-    test_xilanh                              0x08000d59   Thumb Code   144  function.o(.text.test_xilanh)
-    xoay_phai                                0x08000de9   Thumb Code    46  function.o(.text.xoay_phai)
-    xoay_trai                                0x08000e19   Thumb Code    46  function.o(.text.xoay_trai)
-    Region$$Table$$Base                      0x08000e48   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08000e68   Number         0  anon$$obj.o(Region$$Table)
+    EXTI15_10_IRQHandler                     0x08000245   Thumb Code   108  interrupt.o(.text.EXTI15_10_IRQHandler)
+    EXTI3_IRQHandler                         0x080002b1   Thumb Code   142  interrupt.o(.text.EXTI3_IRQHandler)
+    EXTI4_IRQHandler                         0x08000341   Thumb Code   164  interrupt.o(.text.EXTI4_IRQHandler)
+    EXTI9_5_IRQHandler                       0x080003e5   Thumb Code   140  interrupt.o(.text.EXTI9_5_IRQHandler)
+    SystemInit                               0x08000539   Thumb Code    86  system_stm32f10x.o(.text.SystemInit)
+    USART1_IRQHandler                        0x08000591   Thumb Code   116  interrupt.o(.text.USART1_IRQHandler)
+    config                                   0x08000651   Thumb Code    86  config.o(.text.config)
+    configAFIO                               0x080006a9   Thumb Code    56  gpio.o(.text.configAFIO)
+    configDMA1                               0x080006e1   Thumb Code    40  dma.o(.text.configDMA1)
+    configEXTI                               0x08000709   Thumb Code   116  exti.o(.text.configEXTI)
+    configGPIOA                              0x0800077d   Thumb Code   192  gpio.o(.text.configGPIOA)
+    configGPIOB                              0x0800083d   Thumb Code   200  gpio.o(.text.configGPIOB)
+    configGPIOC                              0x08000905   Thumb Code    48  gpio.o(.text.configGPIOC)
+    configNVIC                               0x08000935   Thumb Code    78  nvic.o(.text.configNVIC)
+    configTIM4                               0x08000985   Thumb Code    52  timer.o(.text.configTIM4)
+    configUART1                              0x080009b9   Thumb Code    38  uart.o(.text.configUART1)
+    configUART2                              0x080009e1   Thumb Code    58  uart.o(.text.configUART2)
+    configUART3                              0x08000a1d   Thumb Code    58  uart.o(.text.configUART3)
+    control_xilanh                           0x08000a59   Thumb Code   288  function.o(.text.control_xilanh)
+    delayUs                                  0x08000b79   Thumb Code    32  timer.o(.text.delayUs)
+    ha_canh_tay                              0x08000b99   Thumb Code    16  function.o(.text.ha_canh_tay)
+    initDMA1Channel7                         0x08000ba9   Thumb Code    22  dma.o(.text.initDMA1Channel7)
+    kep                                      0x08000bc1   Thumb Code    58  function.o(.text.kep)
+    khoa_dc_tay                              0x08000bfd   Thumb Code    36  function.o(.text.khoa_dc_tay)
+    main                                     0x08000c21   Thumb Code     6  main.o(.text.main)
+    nang_canh_tay                            0x08000c29   Thumb Code    16  function.o(.text.nang_canh_tay)
+    tu_dong_1                                0x08000c39   Thumb Code    80  tu_dong.o(.text.tu_dong_1)
+    tu_dong_2                                0x08000c89   Thumb Code    48  tu_dong.o(.text.tu_dong_2)
+    tu_dong_3                                0x08000cb9   Thumb Code    76  tu_dong.o(.text.tu_dong_3)
+    tu_dong_4                                0x08000d05   Thumb Code    48  tu_dong.o(.text.tu_dong_4)
+    tu_dong_5                                0x08000d35   Thumb Code    48  tu_dong.o(.text.tu_dong_5)
+    tu_dong_6                                0x08000d65   Thumb Code    60  tu_dong.o(.text.tu_dong_6)
+    xoay_phai                                0x08000da1   Thumb Code    46  function.o(.text.xoay_phai)
+    xoay_trai                                0x08000dd1   Thumb Code    46  function.o(.text.xoay_trai)
+    Region$$Table$$Base                      0x08000e00   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x08000e20   Number         0  anon$$obj.o(Region$$Table)
     canh_tay                                 0x20000000   Data           9  main.o(.data.canh_tay)
     __libspace_start                         0x20000010   Data          96  libspace.o(.bss)
     __temporary_stack_top$libspace           0x20000070   Data           0  libspace.o(.bss)
     check                                    0x20000070   Data           4  main.o(.bss.check)
-    start                                    0x20000074   Data           1  main.o(.bss.start)
-    stop_nang_ha                             0x20000075   Data           1  main.o(.bss.stop_nang_ha)
-    tay_ps                                   0x20000076   Data           2  main.o(.bss.tay_ps)
-    tem                                      0x20000078   Data           1  main.o(.bss.tem)
-    trang_thai                               0x20000079   Data           1  main.o(.bss.trang_thai)
-    vi_tri_nang_ha                           0x2000007a   Data           1  main.o(.bss.vi_tri_nang_ha)
+    done                                     0x20000074   Data           1  main.o(.bss.done)
+    home                                     0x20000075   Data           1  main.o(.bss.home)
+    stop_nang_ha                             0x20000076   Data           1  main.o(.bss.stop_nang_ha)
+    tay_ps                                   0x20000078   Data           2  main.o(.bss.tay_ps)
+    tem                                      0x2000007a   Data           1  main.o(.bss.tem)
+    trang_thai                               0x2000007b   Data           1  main.o(.bss.trang_thai)
+    vi_tri_nang_ha                           0x2000007c   Data           1  main.o(.bss.vi_tri_nang_ha)
 
 
 
@@ -744,139 +791,149 @@ Memory Map of the image
 
   Image Entry point : 0x08000189
 
-  Load Region LR_1 (Base: 0x08000000, Size: 0x00000e74, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x08000000, Size: 0x00000e2c, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x00000e68, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x00000e20, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x08000000   0x08000000   0x000000ec   Data   RO          220    RESET               startup_stm32f10x_md.o
-    0x080000ec   0x080000ec   0x00000008   Code   RO          249  * !!!main             c_w.l(__main.o)
-    0x080000f4   0x080000f4   0x00000034   Code   RO          412    !!!scatter          c_w.l(__scatter.o)
-    0x08000128   0x08000128   0x0000001a   Code   RO          414    !!handler_copy      c_w.l(__scatter_copy.o)
+    0x08000000   0x08000000   0x000000ec   Data   RO          240    RESET               startup_stm32f10x_md.o
+    0x080000ec   0x080000ec   0x00000008   Code   RO          269  * !!!main             c_w.l(__main.o)
+    0x080000f4   0x080000f4   0x00000034   Code   RO          432    !!!scatter          c_w.l(__scatter.o)
+    0x08000128   0x08000128   0x0000001a   Code   RO          434    !!handler_copy      c_w.l(__scatter_copy.o)
     0x08000142   0x08000142   0x00000002   PAD
-    0x08000144   0x08000144   0x0000001c   Code   RO          416    !!handler_zi        c_w.l(__scatter_zi.o)
-    0x08000160   0x08000160   0x00000002   Code   RO          276    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          283    .ARM.Collect$$libinit$$00000002  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          285    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          288    .ARM.Collect$$libinit$$0000000A  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          290    .ARM.Collect$$libinit$$0000000C  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          292    .ARM.Collect$$libinit$$0000000E  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          295    .ARM.Collect$$libinit$$00000011  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          297    .ARM.Collect$$libinit$$00000013  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          299    .ARM.Collect$$libinit$$00000015  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          301    .ARM.Collect$$libinit$$00000017  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          303    .ARM.Collect$$libinit$$00000019  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          305    .ARM.Collect$$libinit$$0000001B  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          307    .ARM.Collect$$libinit$$0000001D  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          309    .ARM.Collect$$libinit$$0000001F  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          311    .ARM.Collect$$libinit$$00000021  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          313    .ARM.Collect$$libinit$$00000023  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          315    .ARM.Collect$$libinit$$00000025  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          319    .ARM.Collect$$libinit$$0000002C  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          321    .ARM.Collect$$libinit$$0000002E  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          323    .ARM.Collect$$libinit$$00000030  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000000   Code   RO          325    .ARM.Collect$$libinit$$00000032  c_w.l(libinit2.o)
-    0x08000162   0x08000162   0x00000002   Code   RO          326    .ARM.Collect$$libinit$$00000033  c_w.l(libinit2.o)
-    0x08000164   0x08000164   0x00000002   Code   RO          348    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
-    0x08000166   0x08000166   0x00000000   Code   RO          363    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
-    0x08000166   0x08000166   0x00000000   Code   RO          365    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
-    0x08000166   0x08000166   0x00000000   Code   RO          368    .ARM.Collect$$libshutdown$$00000007  c_w.l(libshutdown2.o)
-    0x08000166   0x08000166   0x00000000   Code   RO          371    .ARM.Collect$$libshutdown$$0000000A  c_w.l(libshutdown2.o)
-    0x08000166   0x08000166   0x00000000   Code   RO          373    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
-    0x08000166   0x08000166   0x00000000   Code   RO          376    .ARM.Collect$$libshutdown$$0000000F  c_w.l(libshutdown2.o)
-    0x08000166   0x08000166   0x00000002   Code   RO          377    .ARM.Collect$$libshutdown$$00000010  c_w.l(libshutdown2.o)
-    0x08000168   0x08000168   0x00000000   Code   RO          251    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
-    0x08000168   0x08000168   0x00000000   Code   RO          253    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
-    0x08000168   0x08000168   0x00000006   Code   RO          265    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
-    0x0800016e   0x0800016e   0x00000000   Code   RO          255    .ARM.Collect$$rtentry$$00000009  c_w.l(__rtentry2.o)
-    0x0800016e   0x0800016e   0x00000004   Code   RO          256    .ARM.Collect$$rtentry$$0000000A  c_w.l(__rtentry2.o)
-    0x08000172   0x08000172   0x00000000   Code   RO          258    .ARM.Collect$$rtentry$$0000000C  c_w.l(__rtentry2.o)
-    0x08000172   0x08000172   0x00000008   Code   RO          259    .ARM.Collect$$rtentry$$0000000D  c_w.l(__rtentry2.o)
-    0x0800017a   0x0800017a   0x00000002   Code   RO          280    .ARM.Collect$$rtexit$$00000000  c_w.l(rtexit.o)
-    0x0800017c   0x0800017c   0x00000000   Code   RO          328    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
-    0x0800017c   0x0800017c   0x00000004   Code   RO          329    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
-    0x08000180   0x08000180   0x00000006   Code   RO          330    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
+    0x08000144   0x08000144   0x0000001c   Code   RO          436    !!handler_zi        c_w.l(__scatter_zi.o)
+    0x08000160   0x08000160   0x00000002   Code   RO          296    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          303    .ARM.Collect$$libinit$$00000002  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          305    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          308    .ARM.Collect$$libinit$$0000000A  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          310    .ARM.Collect$$libinit$$0000000C  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          312    .ARM.Collect$$libinit$$0000000E  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          315    .ARM.Collect$$libinit$$00000011  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          317    .ARM.Collect$$libinit$$00000013  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          319    .ARM.Collect$$libinit$$00000015  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          321    .ARM.Collect$$libinit$$00000017  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          323    .ARM.Collect$$libinit$$00000019  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          325    .ARM.Collect$$libinit$$0000001B  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          327    .ARM.Collect$$libinit$$0000001D  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          329    .ARM.Collect$$libinit$$0000001F  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          331    .ARM.Collect$$libinit$$00000021  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          333    .ARM.Collect$$libinit$$00000023  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          335    .ARM.Collect$$libinit$$00000025  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          339    .ARM.Collect$$libinit$$0000002C  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          341    .ARM.Collect$$libinit$$0000002E  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          343    .ARM.Collect$$libinit$$00000030  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000000   Code   RO          345    .ARM.Collect$$libinit$$00000032  c_w.l(libinit2.o)
+    0x08000162   0x08000162   0x00000002   Code   RO          346    .ARM.Collect$$libinit$$00000033  c_w.l(libinit2.o)
+    0x08000164   0x08000164   0x00000002   Code   RO          368    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
+    0x08000166   0x08000166   0x00000000   Code   RO          383    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
+    0x08000166   0x08000166   0x00000000   Code   RO          385    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
+    0x08000166   0x08000166   0x00000000   Code   RO          388    .ARM.Collect$$libshutdown$$00000007  c_w.l(libshutdown2.o)
+    0x08000166   0x08000166   0x00000000   Code   RO          391    .ARM.Collect$$libshutdown$$0000000A  c_w.l(libshutdown2.o)
+    0x08000166   0x08000166   0x00000000   Code   RO          393    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
+    0x08000166   0x08000166   0x00000000   Code   RO          396    .ARM.Collect$$libshutdown$$0000000F  c_w.l(libshutdown2.o)
+    0x08000166   0x08000166   0x00000002   Code   RO          397    .ARM.Collect$$libshutdown$$00000010  c_w.l(libshutdown2.o)
+    0x08000168   0x08000168   0x00000000   Code   RO          271    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
+    0x08000168   0x08000168   0x00000000   Code   RO          273    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
+    0x08000168   0x08000168   0x00000006   Code   RO          285    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
+    0x0800016e   0x0800016e   0x00000000   Code   RO          275    .ARM.Collect$$rtentry$$00000009  c_w.l(__rtentry2.o)
+    0x0800016e   0x0800016e   0x00000004   Code   RO          276    .ARM.Collect$$rtentry$$0000000A  c_w.l(__rtentry2.o)
+    0x08000172   0x08000172   0x00000000   Code   RO          278    .ARM.Collect$$rtentry$$0000000C  c_w.l(__rtentry2.o)
+    0x08000172   0x08000172   0x00000008   Code   RO          279    .ARM.Collect$$rtentry$$0000000D  c_w.l(__rtentry2.o)
+    0x0800017a   0x0800017a   0x00000002   Code   RO          300    .ARM.Collect$$rtexit$$00000000  c_w.l(rtexit.o)
+    0x0800017c   0x0800017c   0x00000000   Code   RO          348    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
+    0x0800017c   0x0800017c   0x00000004   Code   RO          349    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
+    0x08000180   0x08000180   0x00000006   Code   RO          350    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
     0x08000186   0x08000186   0x00000002   PAD
-    0x08000188   0x08000188   0x00000040   Code   RO          221  * .text               startup_stm32f10x_md.o
-    0x080001c8   0x080001c8   0x00000006   Code   RO          247    .text               c_w.l(heapauxi.o)
-    0x080001ce   0x080001ce   0x0000004a   Code   RO          267    .text               c_w.l(sys_stackheap_outer.o)
-    0x08000218   0x08000218   0x00000012   Code   RO          269    .text               c_w.l(exit.o)
+    0x08000188   0x08000188   0x00000040   Code   RO          241  * .text               startup_stm32f10x_md.o
+    0x080001c8   0x080001c8   0x00000006   Code   RO          267    .text               c_w.l(heapauxi.o)
+    0x080001ce   0x080001ce   0x0000004a   Code   RO          287    .text               c_w.l(sys_stackheap_outer.o)
+    0x08000218   0x08000218   0x00000012   Code   RO          289    .text               c_w.l(exit.o)
     0x0800022a   0x0800022a   0x00000002   PAD
-    0x0800022c   0x0800022c   0x00000008   Code   RO          277    .text               c_w.l(libspace.o)
-    0x08000234   0x08000234   0x0000000c   Code   RO          338    .text               c_w.l(sys_exit.o)
-    0x08000240   0x08000240   0x00000002   Code   RO          353    .text               c_w.l(use_no_semi.o)
-    0x08000242   0x08000242   0x00000000   Code   RO          355    .text               c_w.l(indicate_semi.o)
+    0x0800022c   0x0800022c   0x00000008   Code   RO          297    .text               c_w.l(libspace.o)
+    0x08000234   0x08000234   0x0000000c   Code   RO          358    .text               c_w.l(sys_exit.o)
+    0x08000240   0x08000240   0x00000002   Code   RO          373    .text               c_w.l(use_no_semi.o)
+    0x08000242   0x08000242   0x00000000   Code   RO          375    .text               c_w.l(indicate_semi.o)
     0x08000242   0x08000242   0x00000002   PAD
-    0x08000244   0x08000244   0x000000a0   Code   RO           73    .text.EXTI15_10_IRQHandler  interrupt.o
-    0x080002e4   0x080002e4   0x00000064   Code   RO           79    .text.EXTI3_IRQHandler  interrupt.o
-    0x08000348   0x08000348   0x000000f8   Code   RO           75    .text.EXTI4_IRQHandler  interrupt.o
-    0x08000440   0x08000440   0x000000f8   Code   RO           77    .text.EXTI9_5_IRQHandler  interrupt.o
-    0x08000538   0x08000538   0x00000008   Code   RO          230    .text.SetSysClock   system_stm32f10x.o
-    0x08000540   0x08000540   0x000000be   Code   RO          234    .text.SetSysClockTo72  system_stm32f10x.o
-    0x080005fe   0x080005fe   0x00000002   PAD
-    0x08000600   0x08000600   0x00000056   Code   RO          228    .text.SystemInit    system_stm32f10x.o
-    0x08000656   0x08000656   0x00000002   PAD
-    0x08000658   0x08000658   0x00000106   Code   RO           81    .text.USART1_IRQHandler  interrupt.o
-    0x0800075e   0x0800075e   0x00000002   PAD
-    0x08000760   0x08000760   0x00000020   Code   RO           96    .text.__NVIC_EnableIRQ  nvic.o
-    0x08000780   0x08000780   0x00000010   Code   RO           94    .text.__NVIC_SetPriority  nvic.o
-    0x08000790   0x08000790   0x0000001c   Code   RO           92    .text.__NVIC_SetPriorityGrouping  nvic.o
-    0x080007ac   0x080007ac   0x00000030   Code   RO          106    .text.config        config.o
-    0x080007dc   0x080007dc   0x00000038   Code   RO           25    .text.configAFIO    gpio.o
-    0x08000814   0x08000814   0x00000028   Code   RO          149    .text.configDMA1    dma.o
-    0x0800083c   0x0800083c   0x00000074   Code   RO           65    .text.configEXTI    exti.o
-    0x080008b0   0x080008b0   0x000000c0   Code   RO           19    .text.configGPIOA   gpio.o
-    0x08000970   0x08000970   0x000000c8   Code   RO           21    .text.configGPIOB   gpio.o
-    0x08000a38   0x08000a38   0x00000030   Code   RO           23    .text.configGPIOC   gpio.o
-    0x08000a68   0x08000a68   0x0000004e   Code   RO           90    .text.configNVIC    nvic.o
-    0x08000ab6   0x08000ab6   0x00000002   PAD
-    0x08000ab8   0x08000ab8   0x00000034   Code   RO           38    .text.configTIM4    timer.o
-    0x08000aec   0x08000aec   0x00000026   Code   RO          136    .text.configUART1   uart.o
-    0x08000b12   0x08000b12   0x00000002   PAD
-    0x08000b14   0x08000b14   0x0000003a   Code   RO          138    .text.configUART2   uart.o
-    0x08000b4e   0x08000b4e   0x00000002   PAD
-    0x08000b50   0x08000b50   0x0000003a   Code   RO          140    .text.configUART3   uart.o
-    0x08000b8a   0x08000b8a   0x00000002   PAD
-    0x08000b8c   0x08000b8c   0x00000120   Code   RO          175    .text.control_xilanh  function.o
-    0x08000cac   0x08000cac   0x00000020   Code   RO           40    .text.delayUs       timer.o
-    0x08000ccc   0x08000ccc   0x00000010   Code   RO          179    .text.ha_canh_tay   function.o
-    0x08000cdc   0x08000cdc   0x0000003a   Code   RO          187    .text.kep           function.o
-    0x08000d16   0x08000d16   0x00000002   PAD
-    0x08000d18   0x08000d18   0x00000024   Code   RO          185    .text.khoa_dc_tay   function.o
-    0x08000d3c   0x08000d3c   0x0000000a   Code   RO            2    .text.main          main.o
-    0x08000d46   0x08000d46   0x00000002   PAD
-    0x08000d48   0x08000d48   0x00000010   Code   RO          177    .text.nang_canh_tay  function.o
-    0x08000d58   0x08000d58   0x00000090   Code   RO          191    .text.test_xilanh   function.o
-    0x08000de8   0x08000de8   0x0000002e   Code   RO          181    .text.xoay_phai     function.o
-    0x08000e16   0x08000e16   0x00000002   PAD
-    0x08000e18   0x08000e18   0x0000002e   Code   RO          183    .text.xoay_trai     function.o
-    0x08000e46   0x08000e46   0x00000002   PAD
-    0x08000e48   0x08000e48   0x00000020   Data   RO          411    Region$$Table       anon$$obj.o
+    0x08000244   0x08000244   0x0000006c   Code   RO           74    .text.EXTI15_10_IRQHandler  interrupt.o
+    0x080002b0   0x080002b0   0x0000008e   Code   RO           80    .text.EXTI3_IRQHandler  interrupt.o
+    0x0800033e   0x0800033e   0x00000002   PAD
+    0x08000340   0x08000340   0x000000a4   Code   RO           76    .text.EXTI4_IRQHandler  interrupt.o
+    0x080003e4   0x080003e4   0x0000008c   Code   RO           78    .text.EXTI9_5_IRQHandler  interrupt.o
+    0x08000470   0x08000470   0x00000008   Code   RO          250    .text.SetSysClock   system_stm32f10x.o
+    0x08000478   0x08000478   0x000000be   Code   RO          254    .text.SetSysClockTo72  system_stm32f10x.o
+    0x08000536   0x08000536   0x00000002   PAD
+    0x08000538   0x08000538   0x00000056   Code   RO          248    .text.SystemInit    system_stm32f10x.o
+    0x0800058e   0x0800058e   0x00000002   PAD
+    0x08000590   0x08000590   0x00000074   Code   RO           82    .text.USART1_IRQHandler  interrupt.o
+    0x08000604   0x08000604   0x00000020   Code   RO           97    .text.__NVIC_EnableIRQ  nvic.o
+    0x08000624   0x08000624   0x00000010   Code   RO           95    .text.__NVIC_SetPriority  nvic.o
+    0x08000634   0x08000634   0x0000001c   Code   RO           93    .text.__NVIC_SetPriorityGrouping  nvic.o
+    0x08000650   0x08000650   0x00000056   Code   RO          107    .text.config        config.o
+    0x080006a6   0x080006a6   0x00000002   PAD
+    0x080006a8   0x080006a8   0x00000038   Code   RO           26    .text.configAFIO    gpio.o
+    0x080006e0   0x080006e0   0x00000028   Code   RO          150    .text.configDMA1    dma.o
+    0x08000708   0x08000708   0x00000074   Code   RO           66    .text.configEXTI    exti.o
+    0x0800077c   0x0800077c   0x000000c0   Code   RO           20    .text.configGPIOA   gpio.o
+    0x0800083c   0x0800083c   0x000000c8   Code   RO           22    .text.configGPIOB   gpio.o
+    0x08000904   0x08000904   0x00000030   Code   RO           24    .text.configGPIOC   gpio.o
+    0x08000934   0x08000934   0x0000004e   Code   RO           91    .text.configNVIC    nvic.o
+    0x08000982   0x08000982   0x00000002   PAD
+    0x08000984   0x08000984   0x00000034   Code   RO           39    .text.configTIM4    timer.o
+    0x080009b8   0x080009b8   0x00000026   Code   RO          137    .text.configUART1   uart.o
+    0x080009de   0x080009de   0x00000002   PAD
+    0x080009e0   0x080009e0   0x0000003a   Code   RO          139    .text.configUART2   uart.o
+    0x08000a1a   0x08000a1a   0x00000002   PAD
+    0x08000a1c   0x08000a1c   0x0000003a   Code   RO          141    .text.configUART3   uart.o
+    0x08000a56   0x08000a56   0x00000002   PAD
+    0x08000a58   0x08000a58   0x00000120   Code   RO          176    .text.control_xilanh  function.o
+    0x08000b78   0x08000b78   0x00000020   Code   RO           41    .text.delayUs       timer.o
+    0x08000b98   0x08000b98   0x00000010   Code   RO          180    .text.ha_canh_tay   function.o
+    0x08000ba8   0x08000ba8   0x00000016   Code   RO          160    .text.initDMA1Channel7  dma.o
+    0x08000bbe   0x08000bbe   0x00000002   PAD
+    0x08000bc0   0x08000bc0   0x0000003a   Code   RO          188    .text.kep           function.o
+    0x08000bfa   0x08000bfa   0x00000002   PAD
+    0x08000bfc   0x08000bfc   0x00000024   Code   RO          186    .text.khoa_dc_tay   function.o
+    0x08000c20   0x08000c20   0x00000006   Code   RO            2    .text.main          main.o
+    0x08000c26   0x08000c26   0x00000002   PAD
+    0x08000c28   0x08000c28   0x00000010   Code   RO          178    .text.nang_canh_tay  function.o
+    0x08000c38   0x08000c38   0x00000050   Code   RO          202    .text.tu_dong_1     tu_dong.o
+    0x08000c88   0x08000c88   0x00000030   Code   RO          204    .text.tu_dong_2     tu_dong.o
+    0x08000cb8   0x08000cb8   0x0000004c   Code   RO          206    .text.tu_dong_3     tu_dong.o
+    0x08000d04   0x08000d04   0x00000030   Code   RO          208    .text.tu_dong_4     tu_dong.o
+    0x08000d34   0x08000d34   0x00000030   Code   RO          210    .text.tu_dong_5     tu_dong.o
+    0x08000d64   0x08000d64   0x0000003c   Code   RO          212    .text.tu_dong_6     tu_dong.o
+    0x08000da0   0x08000da0   0x0000002e   Code   RO          182    .text.xoay_phai     function.o
+    0x08000dce   0x08000dce   0x00000002   PAD
+    0x08000dd0   0x08000dd0   0x0000002e   Code   RO          184    .text.xoay_trai     function.o
+    0x08000dfe   0x08000dfe   0x00000002   PAD
+    0x08000e00   0x08000e00   0x00000020   Data   RO          431    Region$$Table       anon$$obj.o
 
 
-    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x08000e68, Size: 0x0000000c, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x08000e20, Size: 0x0000000c, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x08000e68   0x00000009   Data   RW            9    .data.canh_tay      main.o
+    0x20000000   0x08000e20   0x00000009   Data   RW           10    .data.canh_tay      main.o
 
 
-    Execution Region ER_ZI (Exec base: 0x20000010, Load base: 0x08000e74, Size: 0x00000670, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_ZI (Exec base: 0x20000010, Load base: 0x08000e2c, Size: 0x00000670, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000010        -       0x00000060   Zero   RW          278    .bss                c_w.l(libspace.o)
-    0x20000070        -       0x00000004   Zero   RW           10    .bss.check          main.o
-    0x20000074        -       0x00000001   Zero   RW            4    .bss.start          main.o
-    0x20000075        -       0x00000001   Zero   RW            6    .bss.stop_nang_ha   main.o
-    0x20000076        -       0x00000002   Zero   RW           11    .bss.tay_ps         main.o
-    0x20000078        -       0x00000001   Zero   RW            5    .bss.tem            main.o
-    0x20000079        -       0x00000001   Zero   RW            8    .bss.trang_thai     main.o
-    0x2000007a        -       0x00000001   Zero   RW            7    .bss.vi_tri_nang_ha  main.o
-    0x2000007b   0x08000e74   0x00000005   PAD
-    0x20000080        -       0x00000200   Zero   RW          219    HEAP                startup_stm32f10x_md.o
-    0x20000280        -       0x00000400   Zero   RW          218    STACK               startup_stm32f10x_md.o
+    0x20000010        -       0x00000060   Zero   RW          298    .bss                c_w.l(libspace.o)
+    0x20000070        -       0x00000004   Zero   RW           11    .bss.check          main.o
+    0x20000074        -       0x00000001   Zero   RW            8    .bss.done           main.o
+    0x20000075        -       0x00000001   Zero   RW            4    .bss.home           main.o
+    0x20000076        -       0x00000001   Zero   RW            6    .bss.stop_nang_ha   main.o
+    0x20000077   0x08000e2c   0x00000001   PAD
+    0x20000078        -       0x00000002   Zero   RW           12    .bss.tay_ps         main.o
+    0x2000007a        -       0x00000001   Zero   RW            5    .bss.tem            main.o
+    0x2000007b        -       0x00000001   Zero   RW            9    .bss.trang_thai     main.o
+    0x2000007c        -       0x00000001   Zero   RW            7    .bss.vi_tri_nang_ha  main.o
+    0x2000007d   0x08000e2c   0x00000003   PAD
+    0x20000080        -       0x00000200   Zero   RW          239    HEAP                startup_stm32f10x_md.o
+    0x20000280        -       0x00000400   Zero   RW          238    STACK               startup_stm32f10x_md.o
 
 
 ==============================================================================
@@ -886,23 +943,24 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-        48          0          0          0          0        331   config.o
-        40          0          0          0          0       2922   dma.o
-       116          0          0          0          0        721   exti.o
-       650         28          0          0          0       2449   function.o
-       496          0          0          0          0       1441   gpio.o
-      1018          0          0          0          0       1943   interrupt.o
-        10          0          0          9         11        969   main.o
-       154          0          0          0          0       3444   nvic.o
+        86          0          0          0          0       1112   config.o
+        62          0          0          0          0       2930   dma.o
+       116          0          0          0          0        729   exti.o
+       506         28          0          0          0       2458   function.o
+       496          0          0          0          0       1449   gpio.o
+       670          0          0          0          0       1927   interrupt.o
+         6          0          0          9         12        998   main.o
+       154          0          0          0          0       3452   nvic.o
         64         26        236          0       1536        820   startup_stm32f10x_md.o
-       284          0          0          0          0       2746   system_stm32f10x.o
-        84          0          0          0          0       2056   timer.o
-       154          0          0          0          0       1333   uart.o
+       284          0          0          0          0       2754   system_stm32f10x.o
+        84          0          0          0          0       2064   timer.o
+       360          0          0          0          0        832   tu_dong.o
+       154          0          0          0          0       1341   uart.o
 
     ----------------------------------------------------------------------
-      3140         54        268         12       1552      21175   Object Totals
+      3068         54        268         12       1552      22866   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-        22          0          0          3          5          0   (incl. Padding)
+        26          0          0          3          4          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -949,15 +1007,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      3420         70        268         12       1648      21491   Grand Totals
-      3420         70        268         12       1648      21491   ELF Image Totals
-      3420         70        268         12          0          0   ROM Totals
+      3348         70        268         12       1648      23166   Grand Totals
+      3348         70        268         12       1648      23166   ELF Image Totals
+      3348         70        268         12          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 3688 (   3.60kB)
+    Total RO  Size (Code + RO Data)                 3616 (   3.53kB)
     Total RW  Size (RW Data + ZI Data)              1660 (   1.62kB)
-    Total ROM Size (Code + RO Data + RW Data)       3700 (   3.61kB)
+    Total ROM Size (Code + RO Data + RW Data)       3628 (   3.54kB)
 
 ==============================================================================
 

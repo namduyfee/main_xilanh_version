@@ -24,7 +24,7 @@ typedef struct {
 	uint8_t end_keo;
 } dc; 
  
-extern uint8_t start; 
+extern uint8_t home; 
 extern uint16_t tay_ps; 
 extern int check; 
 extern dc canh_tay; 
@@ -32,6 +32,8 @@ extern uint8_t tem;
 extern uint8_t stop_nang_ha; 
 extern uint8_t vi_tri_nang_ha; 
 extern uint8_t trang_thai; 
+extern uint8_t done; 
+
 
  void EXTI3_IRQHandler (void); 
  

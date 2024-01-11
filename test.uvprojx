@@ -443,6 +443,11 @@
               <FileType>1</FileType>
               <FilePath>.\src\function.c</FilePath>
             </File>
+            <File>
+              <FileName>tu_dong.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\tu_dong.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -502,6 +507,11 @@
               <FileName>function.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\inc\function.h</FilePath>
+            </File>
+            <File>
+              <FileName>tu_dong.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\inc\tu_dong.h</FilePath>
             </File>
           </Files>
         </Group>

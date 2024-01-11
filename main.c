@@ -5,13 +5,15 @@
 
 uint16_t tay_ps; 
 
-uint8_t start = 0; 
+uint8_t home = 0; 
 
 uint8_t tem = 0; 
 
 uint8_t stop_nang_ha = 0; 
 
 uint8_t vi_tri_nang_ha = 0; 
+
+uint8_t done = 0; 
 
 // trang_thai = 1 : nang len ; trang_thai = 0 : ha xuong 
 uint8_t trang_thai = 0; 
@@ -26,7 +28,7 @@ int main() {
 	
 	
 	config(); 
-	test_xilanh(); 
+
 	
 	while(1) {
  

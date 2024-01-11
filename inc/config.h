@@ -15,7 +15,7 @@
 #include "uart.h"
 #include "i2c.h"
 #include "function.h" 
-
+#include "tu_dong.h" 
 
 
 void config(void); 
