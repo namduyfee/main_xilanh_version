@@ -160,6 +160,11 @@
           <WinNumber>1</WinNumber>
           <ItemText>tx</ItemText>
         </Ww>
+        <Ww>
+          <count>2</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>tam</ItemText>
+        </Ww>
       </WatchWindow1>
       <WatchWindow2>
         <Ww>
@@ -170,17 +175,67 @@
         <Ww>
           <count>1</count>
           <WinNumber>2</WinNumber>
-          <ItemText>check</ItemText>
+          <ItemText>tam</ItemText>
         </Ww>
         <Ww>
           <count>2</count>
           <WinNumber>2</WinNumber>
-          <ItemText>tam</ItemText>
+          <ItemText>stop_nang_ha</ItemText>
         </Ww>
         <Ww>
           <count>3</count>
           <WinNumber>2</WinNumber>
-          <ItemText>stop_nang_ha</ItemText>
+          <ItemText>LaiTay.flag_nang</ItemText>
+        </Ww>
+        <Ww>
+          <count>4</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>LaiTay.flag_ha</ItemText>
+        </Ww>
+        <Ww>
+          <count>5</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>CanhTay</ItemText>
+        </Ww>
+        <Ww>
+          <count>6</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>tay_ps,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>7</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>tam</ItemText>
+        </Ww>
+        <Ww>
+          <count>8</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>FEE_struct.TrangThai.vi_tri_tay_2_hien_tai,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>9</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>FEE_struct.TrangThai.vi_tri_tay_2_mong_muon,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>10</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>FEE_struct.TrangThai.vi_tri_tay_1_hien_tai,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>11</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>FEE_struct.TrangThai.vi_tri_tay_1_mong_muon,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>12</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>FEE_struct.TuDong.tu_dong_number,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>13</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>FEE_struct.TuDong.vi_tri_nang_ha</ItemText>
         </Ww>
       </WatchWindow2>
       <Tracepoint>
@@ -245,6 +300,10 @@
         <Entry>
           <Name>System Viewer\TIM1</Name>
           <WinId>35902</WinId>
+        </Entry>
+        <Entry>
+          <Name>System Viewer\TIM2</Name>
+          <WinId>35896</WinId>
         </Entry>
         <Entry>
           <Name>System Viewer\TIM3</Name>

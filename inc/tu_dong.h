@@ -5,7 +5,7 @@
 #include "config.h"
 
 extern uint8_t home; 
-extern uint8_t trang_thai; 
+
 extern uint8_t done; 
 
 void tu_dong_1(void); 

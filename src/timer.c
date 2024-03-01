@@ -34,22 +34,53 @@ void configTIM1(void) {
 	TIM1->CR1 |= 1; 												
 }
 
+void configTIM2(void) {
+// config TIM2
+// enable clock TIM2
+	
+	RCC->APB1ENR |= 1<<0;	 
+	TIM2->ARR = 65535-1; 
+	TIM2->PSC = 14400-1; 
+	TIM2->EGR |= 1; 
+	TIM2->CR1 |= 1; 
+	
+}
+
+
+//void configTIM3(void) {
+//// config TIM3
+//	// enable clock TIM3 
+//	RCC->APB1ENR |= 1<<1; 
+//	TIM3->ARR = 10000-1; 
+//	TIM3->PSC = 144-1; 
+//	// channel 2 PWM mode 1 
+//	TIM3->CCMR1 &= 0xF0F0; 
+//	TIM3->CCMR1 |= 0x6060; 
+//	
+//	// CCxR = 250 + 6* (goc quay mong muon : 0->180)
+//	// set bit UG
+//	TIM3->EGR |= 1; 
+//	// enable counter 
+//	TIM3->CR1 |= 1; 
+//}
+
+
+
 void configTIM3(void) {
 // config TIM3
-	// enable clock TIM3 
-	RCC->APB1ENR |= 1<<1; 
-	TIM3->ARR = 10000-1; 
-	TIM3->PSC = 144-1; 
-	// channel 2 PWM mode 1 
-	TIM3->CCMR1 &= 0xF0F0; 
-	TIM3->CCMR1 |= 0x6060; 
+// enable clock TIM3
 	
-	// CCxR = 250 + 6* (goc quay mong muon : 0->180)
-	// set bit UG
+	RCC->APB1ENR |= 1<<1;	 
+	TIM3->ARR = 65535-1; 
+	TIM3->PSC = 14400-1; 
 	TIM3->EGR |= 1; 
-	// enable counter 
 	TIM3->CR1 |= 1; 
+	
 }
+
+
+
+
 
 void configTIM4(void) {
 // config TIM4
