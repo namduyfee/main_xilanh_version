@@ -71,13 +71,15 @@ void tu_dong_init(void) {
 	FEE_struct.TuDong.tu_dong_number = 45; 		// so dep <3 
 	FEE_struct.TuDong.stop_nang_ha = 0; 
 	FEE_struct.TuDong.vi_tri_nang_ha = 0; 
-	FEE_struct.TuDong.tha_lua = 28; 
-	FEE_struct.TuDong.gap_lua_len = 15; 
-	FEE_struct.TuDong.di_tha_lua = 10; 
+	FEE_struct.TuDong.tha_lua = 40; 																									// tha lua vao kho 
+	FEE_struct.TuDong.gap_lua_len = 20; 																						// vi tri tren lo lua 
+	FEE_struct.TuDong.di_tha_lua = 10; 																							// di tha lua 
+	FEE_struct.TuDong.tranh_cam_bien = 38; 																			// tranh cham sw, cam bien 
 //	FEE_struct.TuDong.tranh_cham_lua = 26; 
 	FEE_struct.TuDong.kep_lua = 5; 
 	for(int i = 0 ; i < 20; i++) {
-		FEE_struct.TuDong.keo_xilanh_an_toan[i] = 0; 
+		FEE_struct.TuDong.day_keo_xilanh_an_toan[i] = 0; 
+		FEE_struct.TuDong.check_cam_bien_td[i] = 0; 
 	}
 }
 
@@ -123,6 +125,8 @@ void trang_thai_init(void) {
 	for(int i = 0; i < 20; i++) 
 		FEE_struct.TrangThai.comple_reciver[i] = 0; 
 		
+	FEE_struct.TrangThai.troi_tay_1 = 0; 
+	FEE_struct.TrangThai.troi_tay_2 = 0; 
 }
 
 

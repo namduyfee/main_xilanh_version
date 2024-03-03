@@ -15,4 +15,6 @@ void tu_dong_4(void);
 void tu_dong_5(void); 
 void tu_dong_6(void); 
 
+void chong_troi(void); 
+
 #endif

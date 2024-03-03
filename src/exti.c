@@ -13,6 +13,9 @@ void configEXTI(void) {
 	EXTI->RTSR |= 1<<3; 
 	EXTI->FTSR |= (1<<3); 
 	
+	// binh thuong la 1 
+	// bat la 0 
+	
 	EXTI->IMR |= 1<<4; 
 	EXTI->RTSR |= 1<<4;
 	EXTI->FTSR &= (~(1<<4)); 
@@ -20,6 +23,9 @@ void configEXTI(void) {
 	EXTI->IMR |= 1<<5; 
 	EXTI->RTSR |= 1<<5;
 	EXTI->FTSR &= (~(1<<5)); 
+	
+	// binh thuong la 1 
+	// bat la 0 
 	
 	EXTI->IMR |= 1<<15; 
 	EXTI->FTSR |= 1<<15;

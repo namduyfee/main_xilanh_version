@@ -53,13 +53,14 @@ typedef struct {
 	uint8_t stop_nang_ha; 
 	uint8_t vi_tri_nang_ha; 
 	uint8_t tha_lua; 
-	uint8_t di_tha_lua; 
-	uint8_t tranh_cham_lua; 
+	uint8_t di_tha_lua;
 	uint8_t gap_lua_len; 
 	uint8_t kep_lua; 
+	uint8_t tranh_cam_bien; 
+//	uint8_t tranh_cham_lua; 	
 	uint8_t tu_dong_number; 
-	uint8_t keo_xilanh_an_toan[20]; 
-	
+	uint8_t day_keo_xilanh_an_toan[20]; 
+	uint8_t check_cam_bien_td[20]; 
 } tu_dong; 
 
 
@@ -82,6 +83,9 @@ typedef struct {
 	uint8_t chieu_xoay_1; 						// chieu xoay = 0 : xoay trai ; = 1 : xoay phai 
 	uint8_t chieu_xoay_2; 						// xoay trai thi vi tri tay +  , xoay phai thi vi tri tay 
 
+	uint8_t troi_tay_1; 
+	uint8_t troi_tay_2; 
+	
 } trang_thai; 
 
 

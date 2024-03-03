@@ -235,7 +235,7 @@
         <Ww>
           <count>13</count>
           <WinNumber>2</WinNumber>
-          <ItemText>FEE_struct.TuDong.vi_tri_nang_ha</ItemText>
+          <ItemText>FEE_struct.TuDong.vi_tri_nang_ha,0x0A</ItemText>
         </Ww>
       </WatchWindow2>
       <Tracepoint>

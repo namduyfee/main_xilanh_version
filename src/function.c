@@ -336,14 +336,28 @@ void ham_lai_tay(void) {
 	
 }
 
-void reset_check_xoay_tay(void) {
+void reset_check_xoay_tay_1(void) {
 	TIM2->CNT = 0; 
 }
 
-int check_xoay_tay(float second_limit) {
-	float tem1 = 5000 * second_limit; 
+void reset_check_xoay_tay_2(void) {
+	TIM3->CNT = 0; 
+}
+
+int check_xoay_tay_1(float second_limit) {
+	float tem1 =  5000 * second_limit; 
 	int tem2 = (int)tem1; 
 	if(TIM2->CNT > tem2) 
+		return 1; 
+	else 
+		return 0; 
+	
+}
+
+int check_xoay_tay_2(float second_limit) {
+	float tem1 = 5000 * second_limit; 
+	int tem2 = (int)tem1; 
+	if(TIM3->CNT > tem2) 
 		return 1; 
 	else 
 		return 0; 
@@ -363,14 +377,14 @@ void khoi_tao_tu_dong(void) {
 			if(GPIOB->IDR & 1<<5)
 				xoay_trai(1, 0);
 			else 
-				xoay_trai(1, 60);
+				xoay_trai(1, 50);
 			
 			delayUs(5000); 
 			
 			if(GPIOB->IDR & 1<<4)
 				xoay_trai(2, 0); 
 			else
-				xoay_trai(2, 60); 
+				xoay_trai(2, 50); 
 			
 			delayUs(5000);
 			

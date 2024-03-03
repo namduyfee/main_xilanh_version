@@ -27,28 +27,7 @@ Project File Date:  01/11/2024
 <h2>Output:</h2>
 *** Using Compiler 'V6.15', folder: 'D:\keilC\ARM\ARMCLANG\Bin'
 Build target 'Target 1'
-src/config.c(2): warning: In file included from...
-./inc\config.h(15): warning: In file included from...
-./inc/i2c.h(29): warning: no newline at end of file [-Wnewline-eof]
-#endif
-      ^
-src/config.c(4): warning: no previous extern declaration for non-static variable 'tay_ps' [-Wmissing-variable-declarations]
-uint16_t tay_ps; 
-         ^
-src/config.c(4): note: declare 'static' if the variable is not intended to be used outside of this translation unit
-uint16_t tay_ps; 
-^
-src/config.c(6): warning: no previous extern declaration for non-static variable 'FEE_struct' [-Wmissing-variable-declarations]
-FEE_struct_def FEE_struct; 
-               ^
-src/config.c(6): note: declare 'static' if the variable is not intended to be used outside of this translation unit
-FEE_struct_def FEE_struct; 
-^
-3 warnings generated.
-compiling config.c...
-linking...
-Program Size: Code=5680 RO-data=252 RW-data=0 ZI-data=1768  
-".\Objects\test.axf" - 0 Error(s), 3 Warning(s).
+".\Objects\test.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -77,18 +56,18 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.6.0
 
    * Component: Keil::Device:Startup:1.0.0
-      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
       Source file:   Device\Source\system_stm32f10x.c
       Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
       Source file:   Device\Source\ARM\startup_stm32f10x_md.s
 
    * Component: Keil::Device:StdPeriph Drivers:Framework:3.6.0
-      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
-      Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
       Include file:  Device\StdPeriph_Driver\inc\misc.h
-      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
       Source file:   Device\StdPeriph_Driver\src\misc.c
-Build Time Elapsed:  00:00:01
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
+      Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
+Build Time Elapsed:  00:00:00
 </pre>
 </body>
 </html>
